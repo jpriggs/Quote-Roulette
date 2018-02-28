@@ -17,7 +17,6 @@ function getQuote() {
     dataType: 'json',
     contentType: 'application/x-www-form-urlencoded',
     success: function(data) {
-        console.log(data);
         $("#text").text('"' + data.quote + '"');
         if (data.author === '') {
             data.author = 'Unknown';
