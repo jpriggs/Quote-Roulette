@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <title>Quote Roulette</title>
+
+    </head>
+    <body class='main-body'>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <h1 class='title-text'>Quote Roulette</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <div class="quote-box">
+                        <div class="quote-text">
+                            <p id="text"></p>
+                        </div>
+                        <div class="quote-author">
+                            <p id="author"></p>
+                        </div>
+                        <div class="buttons">
+                            <button class="button" id="new-quote">New Quote</button>
+                            <a rel="nofollow" class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+                    <div class="footer-text">
+                        <p>Created by: <a target='_blank' style="color: blue" href="https://www.freecodecamp.org/jpriggs">Jason Rigdon</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

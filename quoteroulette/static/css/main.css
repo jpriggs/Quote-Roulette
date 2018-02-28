@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+.main-body {
+  background-color: #87bdd8;
+}
+.title-text {
+  font-family: 'Righteous', cursive;
+  font-size: 68px;
+  color: #4040a1;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.quote-box {
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  padding: 40px 50px;
+  display: table;
+  background-color: white;
+}
+.quote-text {
+  height: auto;
+  clear: both;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 34px;
+  font-weight: normal;
+  text-align: center;
+}
+.quote-author {
+  height: auto;
+  clear: both;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: right;
+}
+.quote-box .quote-text i {
+  font-size: 30px;
+  margin-right: 0.4em;
+}
+.quote-box .buttons {
+  display: block;
+  padding-top: 20px;
+}
+.quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: blue;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top 10px;
+  margin-bottom: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+.quote-box .buttons .button:hover {
+  opacity: 0.9;
+}
+.quote-box .buttons .button#tweet-quote {
+  float: right;
+  padding: 0px;
+  text-align: center;
+  font-size: 32px;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  background-color: #4040a1;
+  color: white;
+}
+.quote-box .buttons .button#new-quote {
+  float: right;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Squada One', cursive;
+  font-size: 24px;
+  height: 40px;
+  width: 120px;
+  background-color: #4040a1;
+  color: white;
+}
+.footer-text {
+  margin-top: 10px;
+  margin-bottom: 200px;
+  font-family: 'Righteous', cursive;
+  font-size: 16px;
+  color: #4040a1;
+  text-align: center;
+}
+.footer-text p a {
+  font-family: 'Kaushan Script', cursive;
+  color: #4040a1;
+  text-decoration: none;
+}
