@@ -96,3 +96,14 @@
   color: #4040a1;
   text-decoration: none;
 }
+@media (max-width: 768px) {
+  .title-text {
+    font-size: 54px;
+  }
+  .quote-text {
+    font-size: 28px;
+  }
+  .quote-author {
+    font-size: 18px;
+  }
+}
